@@ -1,0 +1,96 @@
+#logo{
+    color: #131312;
+}
+
+.elements_nav{
+    color: #131312;
+}
+
+.elements_nav::after{
+    background: #FFDD00;
+}
+
+
+
+#nav_bar{
+    display: flex;
+    height: 64px;
+    align-items: center;
+    gap: 26px;
+    flex-shrink: 0;
+}
+
+#logo{
+    text-align: center;
+    font-family: ".Aqua Kana";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#menu_nav{
+    list-style-type: none;
+    display: flex;
+    padding-left: 48px;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#menu_nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+.elements_nav{
+    position: relative;
+    width: 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: ".Aqua Kana";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.elements_nav::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.8s;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+.elements_nav:hover::after{
+    opacity: 1;
+}
+
+#menu_social{
+    list-style-type: none;
+    display: flex;
+    padding-right: 48px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 36px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#menu_social a{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 8.298px 4.122px;
+    justify-content: center;
+    align-items: center;
+}

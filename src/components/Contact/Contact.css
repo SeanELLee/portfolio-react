@@ -1,0 +1,199 @@
+#headline_contact {
+    color: #131312;
+}
+
+.descriptive_contact {
+    color: #131312;
+}
+
+#design_resume,
+#ats_resume,
+#submit {
+  color: #0057B7;
+  background: #FD0;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#design_resume:hover,
+#ats_resume:hover,
+#submit:hover {
+  color: #0057B7;
+  background: rgb(255, 235, 104);
+}
+
+
+.subcontainer_input span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.subcontainer_input input:focus ~ span,
+.subcontainer_input textarea:focus ~ span {
+  color: #131312;
+  background: #00dfc4;
+}
+
+#name_contact,
+#email_contact {
+  color: #131312;
+  border: 1px solid #131312;
+}
+
+#message_contact {
+    color: #131312;
+    border: 1px solid #131312;
+}
+
+
+
+#contact {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 48px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  flex-shrink: 0;
+}
+
+#container_contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 288px;
+}
+
+#container_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#headline_contact {
+  font-family: ".Aqua Kana";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.line_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.descriptive_contact {
+  text-align: center;
+  font-family: ".Aqua Kana";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#button_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+#design_resume,
+#ats_resume,
+#submit {
+  text-align: center;
+  font-family: ".Aqua Kana";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  align-self: stretch;
+}
+
+#design_resume,
+#ats_resume,
+#submit {
+  border: none;
+}
+
+#container_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+#container_input {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.subcontainer_input {
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.subcontainer_input span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-family: ".Aqua Kana";
+  font-size: 12px;
+  transition: 0.3s;
+  letter-spacing: 0.1em;
+}
+
+.subcontainer_input input:focus ~ span,
+.subcontainer_input textarea:focus ~ span {
+  font-size: 0.75em;
+  transform: translateX(20px) translateY(-8px);
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
+#name_contact,
+#email_contact {
+  text-align: left;
+  font-family: ".Aqua Kana";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 400px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+}
+
+#message_contact {
+  text-align: left;
+  font-family: ".Aqua Kana";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 400px;
+  height: 206px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  resize: none;
+}

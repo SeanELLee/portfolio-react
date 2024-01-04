@@ -1,0 +1,74 @@
+/* Colors */
+#headline_home {
+  color: #0057B7;
+}
+
+#description_home {
+  color: #131312;
+}
+
+#nav_about_home {
+  background: #0057B7;
+  color: #FFDD00;
+}
+
+#nav_about_home:hover {
+  background: #004c9e;
+  color: #FFDD00;
+}
+
+/* Styles */
+#home {
+  display: flex;
+  width: auto;
+  height: 768px;
+  padding: 0px 48px;
+  align-items: center;
+  gap: 128px;
+  flex-shrink: 0;
+}
+
+#text_home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#headline_home {
+  width: 412px;
+  font-family: ".Aqua Kana";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#description_home {
+  width: 594px;
+  font-family: ".Aqua Kana";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#nav_about_home {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  width: 432px;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-align: center;
+  font-family: ".Aqua Kana";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.5s;
+}
+
+
