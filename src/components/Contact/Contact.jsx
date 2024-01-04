@@ -48,24 +48,24 @@ function Contact(){
               </div>
             </div>
             <div id='container_right'>
-              <div id='container_input'>
+            <form name="submit-to-google-sheet">
+                <div id='container_input'>
+                  <div className='subcontainer_input'>
+                    <input id='name_contact' type='text' required></input>
+                    <span>NAME</span>
+                  </div>
 
-                <div className='subcontainer_input'>
-                  <input id='name_contact' type='text' required></input>
-                  <span>NAME</span>
+                  <div className='subcontainer_input'>
+                    <input id='email_contact' type='text' required></input>
+                    <span>EMAIL</span>
+                  </div>
+
+                  <div className='subcontainer_input'>
+                    <textarea id='message_contact' type='text' required></textarea>
+                    <span>MESSAGE</span>
+                  </div>
                 </div>
-
-                <div className='subcontainer_input'>
-                  <input id='email_contact' type='text' required></input>
-                  <span>EMAIL</span>
-                </div>
-
-                <div className='subcontainer_input'>
-                  <textarea id='message_contact' type='text' required></textarea>
-                  <span>MESSAGE</span>
-                </div>
-
-              </div>
+              </form>
               <button id='submit'>Submit!</button>
             </div>
           </div>
