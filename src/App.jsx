@@ -13,9 +13,6 @@ function App(){
     case "/":
       ComponentMb = <Home/>
       break;
-    case "/Home":
-      ComponentMb = <Home/>
-      break;
     case "/About":
       ComponentMb = <About/>
       break;
