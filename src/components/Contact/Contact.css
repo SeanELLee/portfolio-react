@@ -157,7 +157,9 @@
 }
 
 .subcontainer_input input:focus ~ span,
-.subcontainer_input textarea:focus ~ span {
+.subcontainer_input textarea:focus ~ span
+.subcontainer_input input:valid ~ span,
+.subcontainer_input textarea:valid ~ span {
   font-size: 0.75em;
   transform: translateX(20px) translateY(-8px);
   padding: 0 5px;
