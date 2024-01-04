@@ -28,7 +28,13 @@
 }
 
 .subcontainer_input input:focus ~ span,
-.subcontainer_input textarea:focus ~ span {
+.subcontainer_input input:valid ~ span {
+  color: #131312;
+  background: #00dfc4;
+}
+
+.subcontainer_input textarea:focus ~ span,
+.subcontainer_input textarea:valid ~ span {
   color: #131312;
   background: #00dfc4;
 }
@@ -157,8 +163,14 @@
 }
 
 .subcontainer_input input:focus ~ span,
-.subcontainer_input textarea:focus ~ span
-.subcontainer_input input:valid ~ span,
+.subcontainer_input input:valid ~ span{
+  font-size: 0.75em;
+  transform: translateX(20px) translateY(-8px);
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
+.subcontainer_input textarea:focus ~ span,
 .subcontainer_input textarea:valid ~ span {
   font-size: 0.75em;
   transform: translateX(20px) translateY(-8px);
