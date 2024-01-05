@@ -10,16 +10,16 @@ function App(){
   let ComponentMb
   let ComponentFt
   switch (window.location.pathname) {
-    case "/":
+    case "/portfolio-react":
       ComponentMb = <Home/>
       break;
-    case "/About":
+    case "/portfolio-react/About":
       ComponentMb = <About/>
       break;
-    case "/Portfolio":
+    case "/portfolio-react/Portfolio":
       ComponentMb = <Portfolio/>
       break;
-    case "/Contact":
+    case "/portfolio-react/Contact":
       ComponentMb = <Contact/>
       ComponentFt = <FooterBar/>
       break;
