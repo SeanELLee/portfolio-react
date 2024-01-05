@@ -17,27 +17,27 @@ function Contact(){
           <div id='container_contact'>
             <div id='container_left'>
 
-              <div class='line_container'>
+              <div className='line_container'>
                 <img src={LinkedinLight}></img>
                 <p className='descriptive_contact'>linkedin.com/in/seankitwahlee</p>
               </div>
 
-              <div class='line_container'>
+              <div className='line_container'>
                 <img src={GitHubLight}></img>
                 <p className='descriptive_contact'>github.com/SeanELLee</p>
               </div>
 
-              <div class='line_container'>
+              <div className='line_container'>
                 <img src={InstagramLight}></img>
                 <p className='descriptive_contact'>instagram.com/seanlee97324/</p>
               </div>
 
-              <div class='line_container'>
+              <div className='line_container'>
                 <img src={MailLight}></img>
                 <p className='descriptive_contact'>seankitwahlee@gmail.com</p>
               </div>
 
-              <div class='line_container'>
+              <div className='line_container'>
                 <img src={PhoneLight}></img>
                 <p className='descriptive_contact'>seankitwahlee@gmail.com</p>
               </div>
