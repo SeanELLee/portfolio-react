@@ -11,7 +11,7 @@ function NavBar(){
     <div>
       <nav id="nav_bar">
         <ul id = "menu_nav">
-          <li><a className='elements_nav' href = "/portfolio-react">Home</a></li>
+          <li><a className='elements_nav' href = "/portfolio-react/">Home</a></li>
           <li><a className='elements_nav' href = "/portfolio-react/About">About</a></li>
           <li><a className='elements_nav' href = "/portfolio-react/Portfolio">Portfolio</a></li>
           <li><a className='elements_nav' href = "/portfolio-react/Contact">Contact</a></li>
