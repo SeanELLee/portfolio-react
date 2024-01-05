@@ -13,13 +13,13 @@ function App(){
     case "/portfolio-react/":
       ComponentMb = <Home/>
       break;
-    case "/portfolio-react/About":
+    case "/portfolio-react/about":
       ComponentMb = <About/>
       break;
-    case "/portfolio-react/Portfolio":
+    case "/portfolio-react/portfolio":
       ComponentMb = <Portfolio/>
       break;
-    case "/portfolio-react/Contact":
+    case "/portfolio-react/contact":
       ComponentMb = <Contact/>
       ComponentFt = <FooterBar/>
       break;

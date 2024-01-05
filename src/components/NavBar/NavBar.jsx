@@ -12,9 +12,9 @@ function NavBar(){
       <nav id="nav_bar">
         <ul id = "menu_nav">
           <li><a className='elements_nav' href = "/portfolio-react/">Home</a></li>
-          <li><a className='elements_nav' href = "/portfolio-react/About">About</a></li>
-          <li><a className='elements_nav' href = "/portfolio-react/Portfolio">Portfolio</a></li>
-          <li><a className='elements_nav' href = "/portfolio-react/Contact">Contact</a></li>
+          <li><a className='elements_nav' href = "/portfolio-react/about">About</a></li>
+          <li><a className='elements_nav' href = "/portfolio-react/portfolio">Portfolio</a></li>
+          <li><a className='elements_nav' href = "/portfolio-react/contact">Contact</a></li>
         </ul>
         <p id='logo'>SEAN.LEE</p>
         <div id = "menu_social">
