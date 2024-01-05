@@ -7,6 +7,7 @@ import FooterBar from './components/FooterBar/FooterBar.jsx';
 
 function App(){
   console.log(window.location.pathname)
+  console.log(window.location.hash)
   let ComponentMb
   let ComponentFt
   switch (window.location.pathname) {
