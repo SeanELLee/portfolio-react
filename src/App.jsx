@@ -1,4 +1,3 @@
-import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar.jsx';
 import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
@@ -14,13 +13,13 @@ function App(){
     case "/portfolio-react/":
       ComponentMb = <Home/>
       break;
-    case "/portfolio-react/about":
+    case "/portfolio-react/About":
       ComponentMb = <About/>
       break;
-    case "/portfolio-react/portfolio":
+    case "/portfolio-react/Portfolio":
       ComponentMb = <Portfolio/>
       break;
-    case "/portfolio-react/contact":
+    case "/portfolio-react/Contact":
       ComponentMb = <Contact/>
       ComponentFt = <FooterBar/>
       break;
