@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar.jsx';
 import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
